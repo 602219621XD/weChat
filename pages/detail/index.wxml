@@ -1,0 +1,11 @@
+<!--pages/detail/index.wxml-->
+<import src="/wxParse/wxParse.wxml"/>
+<view >
+   <view>
+    {{news_title}}
+  </view>
+  <view >
+    <template is="wxParse" data="{{wxParseData:detail.nodes}}"/>
+  </view>
+
+</view>

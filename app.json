@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/index",
+    "pages/mini/index",
+    "pages/seo/index",
+    "pages/wechat/index",
+    "pages/build/index",
+    "pages/aboutUs/index",
+    "pages/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CC0033",
+    "navigationBarTitleText": "大连红松",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#13227a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "icon/logo1.png",
+        "selectedIconPath": "icon/logo.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "新闻中心",
+        "iconPath": "icon/news.png",
+        "selectedIconPath": "icon/on_news.png"
+      },
+      {
+        "pagePath": "pages/aboutUs/index",
+        "text": "联系我们",
+        "iconPath": "icon/aboult.png",
+        "selectedIconPath": "icon/on_aboult.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

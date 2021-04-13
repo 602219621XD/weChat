@@ -1,0 +1,7 @@
+<view class="about_index">
+<image class="allImg" mode="fidthFix" src="../../icon/map.jpg"/>
+
+<view>大连红松科技有限公司</view>
+<view class="text">辽宁省大连市沙河口区星海大厦B座704 116000</view>
+<view class="text"> 商务合作：1651958238@qq.com</view>
+</view>

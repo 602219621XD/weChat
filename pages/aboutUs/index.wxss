@@ -1,0 +1,13 @@
+.about_index{
+  margin: 30rpx;
+  text-align: center;
+}
+.allImg{
+  border-radius: 30rpx;
+}
+.text{
+  text-align: center;
+  margin-top: 100rpx;
+  font-size: 22rpx;
+  color: rgb(105, 102, 102);
+}

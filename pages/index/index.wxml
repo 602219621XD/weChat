@@ -1,0 +1,142 @@
+<!--index.wxml-->
+<view>
+
+   <!-- 轮播图头 -->
+  <view> 
+  <swiper class="swiperCss" autoplay indicator-dots circular indicator-color="brow" indicator-active-color="white">
+    <swiper-item
+      wx:for="{{swiperList}}"
+      wx:key="id"
+    >
+      <navigator>
+        <image class="swiperimg" mode="widthFix" src="http://182.92.120.91:1337{{item.url}}"/>
+      </navigator>
+    </swiper-item>
+  </swiper>
+
+  </view>
+  <!-- 轮播图尾 -->
+<!--
+<view>
+      <view class="pillar">
+        <view class="titleCss">
+         业务介绍
+        </view>
+      </view>
+      <view class="title2Css">
+       全网建设/原创定制
+      </view>
+</view>
+ -->
+
+<!-- 分类头 -->
+<view class="index_cates">
+  <navigator class="index_navigator"
+    wx:for="{{cateList}}"
+    wx:key="id"
+    url="../{{item.caption}}/index"
+  >
+  <image class="cate_img" mode="widthFix" src="http://182.92.120.91:1337{{item.url}}"/>
+  <view class="cate_name">{{item.name}}</view>
+</navigator>
+</view>
+<!-- 分类尾 -->
+
+<!-- <view class="outBar">
+  <view class="barCss">
+    <image mode="widthFix" src="../../icon/1-1.png"/>
+  </view>
+  <view class="barCss">
+    <image mode="widthFix" src="../../icon/2-1.png"/>
+  </view>
+  <view class="barCss">
+    <image mode="widthFix" src="../../icon/3-1.png"/>
+  </view>
+</view> -->
+
+
+<!-- 业务介绍头 -->
+<view class="fath" >
+ <image class="lrimg" mode="widthFix" src="../../icon/prototype.jpg" />
+ <view class="leftText">全网站建设 
+   <view class="textinner">一个后台管理pc网站</view>
+   <view class="textinner">手机网站丶小程序</view>
+ </view>
+</view>
+
+<view class="fath" >
+ <image class="lrimg" mode="widthFix" src="../../icon/prototype2.jpg" />
+ <view class="rightText">小程序开发 
+   <view class="textinner">小程序定制丶</view>
+   <view class="textinner">app开发</view>
+ </view>
+</view>
+
+<view class="barCss">
+  <image  class="barimg" src="../../icon/1-1.png"/>
+  <view class="bartext">品牌型网站建设
+    <view class="textinner">展示企业Ci丶转播品牌文化</view>
+  </view>
+</view>
+
+<view class="barCss">
+  <image  class="barimg" src="../../icon/2-1.png"/>
+  <view class="bartext">营销型网站建设
+    <view class="textinner">获得销售机会丶高效接待</view>
+  </view>
+</view>
+<view class="barCss">
+  <image  class="barimg" src="../../icon/3-1.png"/>
+  <view class="bartext">微信广告
+    <view class="textinner">让服务跟产品恰好出现</view>
+  </view>
+</view>
+<view class="barCss">
+  <image  class="barimg" src="../../icon/7-1.png"/>
+  <view class="bartext">SEO全网推
+    <view class="textinner">占据各大搜索引擎首页丶商贸平台</view>
+  </view>
+</view>
+
+<!-- 业务介绍尾 -->
+
+
+
+<!-- 业务图头  scopephoto -->
+<view >
+  <image  class="scopephoto" mode="widthFix"src="../../icon/scopephoto.png"/>
+</view>
+<!-- 业务图尾-->
+
+<!-- <scroll-view scroll-x="true">
+  <view class="scroll">
+    <view class="barCss">
+    <image mode="widthFix" src="../../icon/1-1.png"/>
+  </view>
+  <view class="barCss">
+    <image mode="widthFix" src="../../icon/2-1.png"/>
+  </view>
+  <view class="barCss">
+    <image mode="widthFix" src="../../icon/3-1.png"/>
+  </view>
+  </view>
+</scroll-view> -->
+
+
+
+
+<!--
+<view>
+      <view class="pillar2">
+        <view class="titleCss">
+         最新新闻
+        </view>
+      </view>
+      <view class="title2Css">
+        了解数字智能最新商业活动与咨询动态
+      </view>
+</view>
+ -->
+
+
+</view>

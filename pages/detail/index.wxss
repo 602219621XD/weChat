@@ -1,0 +1,4 @@
+/* pages/detail/index.wxss */
+.detail_index img{
+  width: 100rpx;
+}
